@@ -1,0 +1,47 @@
+{
+  "id": "/dockey-pages/",
+  "name": "Docky — Personal Document Vault",
+  "short_name": "Docky",
+  "description": "Your important documents. Organized. A private, offline-first personal document vault.",
+  "lang": "en",
+  "start_url": "/dockey-pages/",
+  "scope": "/dockey-pages/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#f8f7fb",
+  "theme_color": "#7560d4",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/dockey-pages/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/dockey-pages/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/dockey-pages/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/dockey-pages/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
