@@ -1,8 +1,8 @@
 /* Docky caches application code only. Document data stays in IndexedDB. */
-const CACHE_VERSION = 'docky-shell-b65a5de938009269';
+const CACHE_VERSION = 'docky-shell-4a687e5568fc558a';
 const APP_BASE = "/dockey-pages/";
 // The production build injects every generated application asset here.
-const PRECACHE_ASSETS = ["/dockey-pages/","/dockey-pages/assets/index-BGNlSY0T.js","/dockey-pages/assets/index-D6qUhSfw.css","/dockey-pages/favicon.svg","/dockey-pages/icons/apple-touch-icon.png","/dockey-pages/icons/icon-192.png","/dockey-pages/icons/icon-512.png","/dockey-pages/icons/icon-maskable-512.png","/dockey-pages/icons/icon.svg","/dockey-pages/index.html","/dockey-pages/manifest.webmanifest"];
+const PRECACHE_ASSETS = ["/dockey-pages/","/dockey-pages/assets/index-CIWxboIB.js","/dockey-pages/assets/index-Df893YXv.css","/dockey-pages/favicon.svg","/dockey-pages/icons/apple-touch-icon.png","/dockey-pages/icons/icon-192.png","/dockey-pages/icons/icon-512.png","/dockey-pages/icons/icon-maskable-512.png","/dockey-pages/icons/icon.svg","/dockey-pages/index.html","/dockey-pages/manifest.webmanifest"];
 const CACHE_PREFIX = `docky-shell-${encodeURIComponent(APP_BASE)}-`;
 const SHELL_CACHE = `${CACHE_PREFIX}${CACHE_VERSION.replace(/^docky-shell-/, '')}-app`;
 const CORE_FILES = new Set(
