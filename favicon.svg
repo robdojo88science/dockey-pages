@@ -1,4 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="116" fill="#7560d4"/>
-  <path fill="#fff" fill-rule="evenodd" d="M145 132h100c80 0 128 49 128 124s-48 124-128 124H145V132zm62 55v138h38c44 0 70-25 70-69s-26-69-70-69h-38z"/>
+  <defs>
+    <linearGradient id="electric" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#63f3ed"/>
+      <stop offset=".55" stop-color="#a28bff"/>
+      <stop offset="1" stop-color="#ed79d7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".2" cy=".15" r="1">
+      <stop stop-color="#28475c"/>
+      <stop offset="1" stop-color="#0d0f14"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="#0d0f14"/>
+  <rect x="8" y="8" width="496" height="496" rx="108" fill="url(#glow)" stroke="url(#electric)" stroke-opacity=".6" stroke-width="4"/>
+  <path fill="url(#electric)" fill-rule="evenodd" d="M145 132h100c80 0 128 49 128 124s-48 124-128 124H145V132zm62 55v138h38c44 0 70-25 70-69s-26-69-70-69h-38z"/>
 </svg>
